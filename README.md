@@ -133,6 +133,52 @@ func main(){
 }
 
 
+chapter 2 Program Structure
+
+go语言的25个关键词
+break default func interface select
+case defer go map struct 
+chan else goto package switch 
+const fallthrough if range type
+continue for import return var
+
+
+常量：true false iota nil
+数据类型：int int8 int16 int32 int64
+        uint uint8 uint16 uint32 uint64
+        float32 float64 complex128 complex64
+        bool byte rune string error
+函数： make len cap new append copy close delete
+      complex real imag panic recover
+      
+ go语言中，变量名首字母大写，则变量可以被其他包的程序调用
+ 
+go语言推荐采用camelcase拼写法。
+
+声明 Declaration
+
+
+printf:
+%d decimal integer
+%x, %o, %b integer in hexadecimal, octal, binary
+%f, %g, %e float-point number
+%t boolean:true or false
+%c rune(Unicode code point)
+%s string
+%q quoted string "abc" or rune 'c'
+%v any value in a natuaral format
+%T type of any value
+%% literal percent sign(no operand)
+
+变量 Variables
+
+var name type = expression
+
+name := expression (short variable declaration)
+
+P51
+
+
 
 
 
