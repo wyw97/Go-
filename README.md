@@ -160,14 +160,23 @@ go语言推荐采用camelcase拼写法。
 
 printf:
 %d decimal integer
+
 %x, %o, %b integer in hexadecimal, octal, binary
+
 %f, %g, %e float-point number
+
 %t boolean:true or false
+
 %c rune(Unicode code point)
+
 %s string
+
 %q quoted string "abc" or rune 'c'
+
 %v any value in a natuaral format
+
 %T type of any value
+
 %% literal percent sign(no operand)
 
 变量 Variables
